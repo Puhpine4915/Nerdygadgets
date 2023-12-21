@@ -2,7 +2,10 @@
     include("header.php");
 ?>
 
-<div>
+<div class="indexContent">
+    <div class="indexTitle">
+        <i>Nerdygadgets</i>
+    </div>
 </div>
 
 <?php
