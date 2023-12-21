@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/logIn.css">
     </head>
     <body>
         <div class="header">
@@ -61,6 +62,7 @@
                             } else {
                                 ?>
                                     <a href="logIn.php">Log in</a>
+                                    <a href="register.php">Register</a>
                                 <?php
                             }
                         ?>

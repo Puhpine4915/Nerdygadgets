@@ -1,0 +1,33 @@
+.logInContent {
+    width: 50vw;
+    color:  var(--ghostWhite);
+    margin: 2rem auto 2rem auto;
+    background-color: var(--raisinBlack);
+    padding: 1vw;
+    box-shadow: 5px 7px 10px var(--shadow);
+}
+
+.logInForm{
+    text-align: center;
+}
+
+.logInForm input{
+    background-color: var(--glaucous);
+    border: none;
+    font-size: 2rem;
+    margin-bottom: 4vh;
+}
+
+.logInTitle {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 8vh;
+}
+
+.logInButton {
+    background: none;
+    border: none;
+    color: var(--ghostWhite);
+    cursor: pointer;
+    font-size: large;
+}
