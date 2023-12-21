@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    height: 15vh;
+    background-color: var(--raisinBlack);
+    display: flex;
+}
+
+.logoIMG {
+    margin: 2.5vh;
+    height: 10vh;
+    display: block;
+}
+
+.headerLinks {
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+    margin-right: 0;
+    font-size: 1.5rem;
+}
+
+.headerLinks div{
+    padding: 1vw;
+}

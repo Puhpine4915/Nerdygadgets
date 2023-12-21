@@ -1,0 +1,40 @@
+:root {
+    --night: #12130F;
+    --raisinBlack: #1C1C26;
+    --glaucous: #657ED4;
+    --ghostWhite: #FBFBFF;
+    --red: #E84855;
+}
+
+body {
+    background-color: var(--night);
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+    color: var(--ghostWhite);
+    cursor: pointer;
+}
+
+.price {
+    color: var(--red);
+}
+
+
+
+.browseContent {
+    display: flex;
+}
+
+.browseFiler {
+    width: 20vw;
+    background-color: var(--raisinBlack);
+}
+
+.browseProducts {
+    width: 60vw;
+    background-color: var(--raisinBlack);
+}

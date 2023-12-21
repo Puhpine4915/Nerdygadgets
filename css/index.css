@@ -1,0 +1,27 @@
+.indexContent {
+    background-color: var(--raisinBlack);
+    margin: 1vw;
+    height: 80vh;
+    color: var(--ghostWhite);
+}
+
+.indexTitle {
+    font-size: 5rem;
+    text-align: center;
+    border-bottom: 2px solid var(--glaucous);
+    margin: 0 5vw 0 5vw;
+    padding: 0.5vw;
+}
+
+.indexProduct {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 3rem;
+    margin-top: 5vh;
+    height: 100%;
+}
+
+.indexProduct div {
+    width: 40vw;
+}
