@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     $servername = "localhost";
     $username = "selector";
     $password = "95.pT}^DUtkAjY$";
@@ -44,23 +46,24 @@
                 </div>
             </div>
             <div class="accountIconContainerContainer">
+                <a class="accountIcon" href="cart.php" style="height: 30px;">
+                    <img src="images/cart.png" style="height: 30px;">
+                </a>
                 <div class="accountIconContainer">
                     <img class="accountIcon" src='images/AccountIcon.png'>
                     <div class="accountOptions">
-                        <a href='
                         <?php
                             if (isset($_SESSION["ID"])) {
-                                echo "account.php"?>
-                                '>Account
+                                ?>
+                                    <a href="account.php">Account</a>
+                                    <a href="logOut.php">Log out</a>
                                 <?php
                             } else {
-                                echo "logIn.php"?>
-                                '>Log in
+                                ?>
+                                    <a href="logIn.php">Log in</a>
                                 <?php
                             }
-                        ?></a>
-                        <a href="#">Option 2</a>
-                        <a href="#">Option 3</a>
+                        ?>
                     </div>
                 </div>
             </div>
