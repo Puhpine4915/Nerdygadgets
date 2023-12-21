@@ -1,3 +1,19 @@
+<?php
+    $servername = "localhost";
+    $username = "selector";
+    $password = "95.pT}^DUtkAjY$";
+    try {
+        $databaseConnection = mysqli_connect($servername, $username, $password);
+    } catch (Exception $e) {
+        die("Connection error: ". $e->getMessage());
+    }
+    $query = "USE nerdygadgets";
+    try {
+        $result = mysqli_query($databaseConnection, $query);
+    } catch (mysqli_sql_exception $e) {
+        echo "Query error: ". $e->getMessage() ."";
+    }
+?>
 <!DOCTYPE html>
 <html>
     <head>

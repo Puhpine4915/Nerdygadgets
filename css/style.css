@@ -3,6 +3,7 @@
     --raisinBlack: #1C1C26;
     --glaucous: #657ED4;
     --ghostWhite: #FBFBFF;
+    --red: #E84855;
 }
 
 body {
@@ -46,13 +47,32 @@ a {
     background-color: var(--raisinBlack);
     margin: 1vw;
     height: 80vh;
+    color: var(--ghostWhite);
 }
 
 .indexTitle {
     font-size: 5rem;
     text-align: center;
     border-bottom: 2px solid var(--glaucous);
-    color: var(--ghostWhite);
     margin: 0 5vw 0 5vw;
     padding: 0.5vw;
+}
+
+.indexProduct {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 3rem;
+    margin-top: 5vh;
+    height: 100%;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black; z-index: 1; text-shadow: -2px 0 1px rgba(0, 0, 0, 1), 0 2px 1px rgba(0, 0, 0, 1), 2px 0 1px rgba(0, 0, 0, 1), 0 -2px 1px rgba(0, 0, 0, 1);
+}
+
+.indexProduct div {
+    width: 40vw;
+}
+
+.price {
+    color: var(--red);
 }
