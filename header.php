@@ -43,4 +43,25 @@
                     <a href="browse.php">RAM</a>
                 </div>
             </div>
+            <div class="accountIconContainerContainer">
+                <div class="accountIconContainer">
+                    <img class="accountIcon" src='images/AccountIcon.png'>
+                    <div class="accountOptions">
+                        <a href='
+                        <?php
+                            if (isset($_SESSION["ID"])) {
+                                echo "account.php"?>
+                                '>Account
+                                <?php
+                            } else {
+                                echo "logIn.php"?>
+                                '>Log in
+                                <?php
+                            }
+                        ?></a>
+                        <a href="#">Option 2</a>
+                        <a href="#">Option 3</a>
+                    </div>
+                </div>
+            </div>
         </div>

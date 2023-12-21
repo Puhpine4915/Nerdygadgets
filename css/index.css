@@ -3,6 +3,7 @@
     margin: 1vw;
     height: 80vh;
     color: var(--ghostWhite);
+    box-shadow: 5px 7px 10px var(--shadow);
 }
 
 .indexTitle {

@@ -4,6 +4,7 @@
     --glaucous: #657ED4;
     --ghostWhite: #FBFBFF;
     --red: #E84855;
+    --shadow: rgb(12, 12, 12);
 }
 
 body {
@@ -27,14 +28,27 @@ a {
 
 .browseContent {
     display: flex;
+    flex: 1 4;
+    justify-content: space-around;
+    margin: 2rem;
+    color: var(--ghostWhite);
 }
 
-.browseFiler {
+.browseFilter {
     width: 20vw;
     background-color: var(--raisinBlack);
+    padding: 1rem;
+    margin: 0;
+    box-shadow: 5px 7px 10px var(--shadow);
+}
+
+.browseEmptyDiv {
+    width: 20vw;
 }
 
 .browseProducts {
-    width: 60vw;
+    width: 50vw;
     background-color: var(--raisinBlack);
+    padding: 1rem;
+    box-shadow: 5px 7px 10px var(--shadow);
 }
